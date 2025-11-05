@@ -1,0 +1,14 @@
+trial,palavra,cor_texto,resposta,correta,tempo_reacao
+1,vermelho,azul,azul,True,1.726
+2,azul,azul,azul,True,1.271
+3,azul,verde,verde,True,1.275
+4,amarelo,verde,verde,True,1.289
+5,azul,vermelho,vermelho,True,1.414
+6,vermelho,verde,verde,True,1.92
+7,azul,amarelo,azul,False,1.06
+8,vermelho,vermelho,vermelho,True,1.199
+9,verde,vermelho,vermelho,True,2.414
+10,verde,azul,azul,True,1.098
+11,verde,amarelo,amarelo,True,1.213
+12,amarelo,azul,azul,True,2.561
+13,vermelho,amarelo,amarelo,True,1.636
