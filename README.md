@@ -40,9 +40,19 @@ O participante deve clicar no botão com o nome da **cor da tinta** da palavra a
 
 ---
 
+
+
 ##  Requisitos
 
 Antes de rodar o experimento, é necessário instalar o **PsychoPy**:
   O psychopy não é compativel com a versão python 3.12, então é necessário instalar o PsychoPy standalone: https://www.psychopy.org/download.html
   Após instalar, é necessário adicionar o interpretador do PsychoPy no Pycharm
+
+📊 Resultados
+
+O tempo de reação e as respostas corretas/incorretas podem ser armazenados para análise posterior (implementação futura).
+Esses dados permitem medir o grau de interferência cognitiva e o desempenho atencional do participante.
+
+
+
 
