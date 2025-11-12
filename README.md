@@ -48,6 +48,70 @@ Antes de rodar o experimento, é necessário instalar o **PsychoPy**:
   O psychopy não é compativel com a versão python 3.12, então é necessário instalar o PsychoPy standalone: https://www.psychopy.org/download.html
   Após instalar, é necessário adicionar o interpretador do PsychoPy no Pycharm
 
+  ## ⚙️ Instalação e Configuração do PsychoPy no PyCharm
+
+Este projeto utiliza o **PsychoPy** para rodar os testes de Stroop com interface gráfica.  
+Para executar o código corretamente no **PyCharm**, siga as etapas abaixo.
+
+---
+
+### 🧩 1. Instalar o PsychoPy
+
+1. Acesse o site oficial do PsychoPy:  
+   👉 [https://www.psychopy.org/download.html](https://www.psychopy.org/download.html)
+
+2. Baixe o instalador correspondente ao seu sistema operacional (Windows, macOS ou Linux).
+
+3. Execute o instalador e siga as instruções até concluir a instalação.
+
+4. Após instalar, abra o **PsychoPy** uma vez para verificar se ele foi instalado corretamente.
+
+---
+
+### ⚙️ 2. Configurar o interpretador do PsychoPy no PyCharm
+
+1. Abra o **PyCharm** e vá até:  
+File → Settings → Project: stroop-psychopy → Python Interpreter
+
+2. Clique no ícone de **engrenagem (⚙️)** no canto superior direito e selecione:  
+Add Interpreter...
+
+3. Escolha a opção:  
+Add → System Interpreter
+
+4. Clique em **Browse...** e procure o interpretador do Python instalado com o PsychoPy.  
+
+- **No Windows**, geralmente está localizado em:  
+  ```
+  C:\Program Files\PsychoPy\python.exe
+  ```
+  ou  
+  ```
+  C:\Program Files\PsychoPy3\python.exe
+  ```
+
+- **No macOS/Linux**, o caminho pode variar, mas o interpretador está dentro da pasta de instalação do PsychoPy (procure por `psychopy.app/Contents/Resources/python`).
+
+5. Selecione o arquivo `python.exe` (ou o executável equivalente no seu sistema) e clique em **OK**.
+
+6. O PyCharm agora usará o mesmo ambiente do PsychoPy como interpretador do projeto.
+
+---
+
+### ▶️ 3. Executar o projeto
+
+1. Abra o arquivo principal do teste (por exemplo, `stroop_test.py`).
+2. Clique com o botão direito no editor e escolha **Run 'stroop_test'**.
+3. O experimento será iniciado usando o PsychoPy.
+
+---
+
+💡 **Dica:**  
+Para confirmar que o interpretador está configurado corretamente, abra o terminal do PyCharm e digite:
+
+```bash
+python -m psychopy
+
 📊 Resultados
 
 O tempo de reação e as respostas corretas/incorretas podem ser armazenados para análise posterior (implementação futura).
