@@ -76,9 +76,8 @@ def executar_teste():
             core.wait(0.15)
             break
 
-    # ==========================
+
     # = BOTÕES DAS RESPOSTAS ===
-    # ==========================
     botoes = {}
     y = -200
     espacamento = 150
@@ -92,9 +91,8 @@ def executar_teste():
                                     color="black", pos=(x, y))
         botoes[cor] = rect
 
-    # ==========================
+
     # ======== TESTE ===========
-    # ==========================
     ultima_cor = None
     resultados = []
 
@@ -275,9 +273,8 @@ def executar_teste():
                     janela.close()
                     core.quit()
 
-# ================================
+
 # ===== LOOP PRINCIPAL DO APP ====
-# ================================
 while True:
     acao = executar_teste()
     if acao == "menu":
